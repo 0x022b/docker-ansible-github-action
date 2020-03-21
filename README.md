@@ -1,4 +1,4 @@
-# docker-ansible-github-action
+# Ansible GitHub Action
 
 Minimal [Alpine Linux][alpine] based [Docker][docker] image for GitHub Actions
 that use [Ansible][ansible] automation tools.
