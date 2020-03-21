@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:latest
 LABEL maintainer="Janne K <0x022b@gmail.com>"
 
 ENTRYPOINT ["/sbin/tini", "--"]
