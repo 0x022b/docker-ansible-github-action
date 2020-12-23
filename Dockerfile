@@ -4,6 +4,7 @@ LABEL maintainer="Janne K <0x022b@gmail.com>"
 ENTRYPOINT ["/sbin/tini", "--"]
 
 RUN \
+sed -i 's/http:/https:/' /etc/apk/repositories && \
 apk upgrade --no-cache && \
 apk add --no-cache \
     ansible \
